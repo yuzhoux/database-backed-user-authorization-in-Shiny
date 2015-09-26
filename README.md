@@ -1,2 +1,3 @@
 # database-backed-user-authorization-in-Shiny
-It is not straightforward to build a Shiny page that requires a database-backed user authorization. This Shiny App is to help developers create their own Apps requiring a login page.
+Shiny Gallery showcases the versatility of Shiny Apps, however the Gallery leads to the use of Shiny Server Pro when it comes to creating a Shiny App that requires a login authorization. Experienced some difficulties to get an inspiring example of Shiny login page code, I am able to successful create my desired login authrozation in Shiny and I want to share this example App with you to help you build your own login page. 
+In this example, the correct username and password combination is when username equals to password. To get database-backed login authorization, you just need to uncomment the ch<-odbcConnect("NZSQL",uid=Username,pwd=Password) part (comment out the part corresponding to cases when username equals to password).  
